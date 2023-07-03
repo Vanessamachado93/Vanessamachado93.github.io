@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Pandas - Curso de Python",
+      "category" : "",
+      "tags"     : "Python, Estudos, Tecnologia",
+      "url"      : "/blog/pandas-python",
+      "date"     : "2023-07-03 00:00:00 -0300"
+    } ,
+  
+    {
       "title"    : "Curso de Python",
       "category" : "",
       "tags"     : "Python, Estudos, Tecnologia",
@@ -54,14 +62,6 @@
       "tags"     : "Software Development",
       "url"      : "/blog/a-better-hello-world",
       "date"     : "2016-07-23 00:00:00 -0300"
-    } ,
-  
-    {
-      "title"    : "Do not go gentle into that good night",
-      "category" : "",
-      "tags"     : "Poetry",
-      "url"      : "/blog/do-not-go-gentle-into-that-good-night",
-      "date"     : "2016-04-17 00:00:00 -0300"
     } ,
   
     {

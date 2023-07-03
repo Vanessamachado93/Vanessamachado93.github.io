@@ -21,12 +21,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Do not go gentle into that good night">
-  <meta property="og:description" content="Provavelmente bebendo café!">
+  <meta property="og:title" content="Pandas - Curso de Python">
+  <meta property="og:description" content="Uso do Pandas.">
   <meta property="og:image" content="https://i.imgur.com/Kc7ZFMO.png">
 
-  <title>Do not go gentle into that good night</title>
-  <meta name="description" content="Provavelmente bebendo café!">
+  <title>Pandas - Curso de Python</title>
+  <meta name="description" content="Uso do Pandas.">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
@@ -73,45 +73,122 @@
 
 </nav>
     <div class="col-lg-10 mx-auto mt-5 markdown-body">
-  <h1><b>Do not go gentle into that good night</b></h1>
+  <h1><b>Pandas - Curso de Python</b></h1>
 
 <p class="post-metadata text-muted">
-  17 April 2016 -  
+  03 July 2023 -  
   <b>less than 1 min read time</b>
 
   <br>Tags: 
     
-    <a class="text-decoration-none no-underline" href="/blog/tags#poetry">
-      <span class="tag badge badge-pill text-primary border border-primary">Poetry</span>
+    <a class="text-decoration-none no-underline" href="/blog/tags#python">
+      <span class="tag badge badge-pill text-primary border border-primary">Python</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#estudos">
+      <span class="tag badge badge-pill text-primary border border-primary">Estudos</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#tecnologia">
+      <span class="tag badge badge-pill text-primary border border-primary">Tecnologia</span>
     </a>
     </p>
 
-<p>Do not go gentle into that good night,<br />
-Old age should burn and rave at close of day;<br />
-Rage, rage against the dying of the light.</p>
+<h1 id="visualização-no-pandas">Visualização no pandas</h1>
+<p><a href="https://pandas.pydata.org/docs/index.html">Documentação do Pandas</a></p>
 
-<p>Though wise men at their end know dark is right,<br />
-Because their words had forked no lightning they<br />
-Do not go gentle into that good night.</p>
+<h2 id="resumo">Resumo</h2>
 
-<p>Good men, the last wave by, crying how bright<br />
-Their frail deeds might have danced in a green bay,<br />
-Rage, rage against the dying of the light.</p>
+<p>Vamos ver alguns métodos para analisar nossas tabelas (dataframes).
+Além disso, vamos usar os plot de gráfico padrões do pandas, mas no projeto de DataScience veremos outras mais bonitas e também muito práticas.</p>
 
-<p>Wild men who caught and sang the sun in flight,<br />
-And learn, too late, they grieved it on its way,<br />
-Do not go gentle into that good night.</p>
+<p>OBS: O pandas usa o matplotlib (que vimos na seção de “módulos e bibliotecas”) para plotar gráficos.<br />
+  Se quiser personalizar mais do que o padrão do pandas, importe o matplotlib e use os métodos do matplotlib.</p>
 
-<p>Grave men, near death, who see with blinding sight<br />
-Blind eyes could blaze like meteors and be gay,<br />
-Rage, rage against the dying of the light.</p>
+<ul>
+  <li>Preparando as bases de dados.</li>
+  <li>Lembrando que a base de dados usadas estava na mesma pasta do arquivo Jupyter.</li>
+</ul>
 
-<p>And you, my father, there on the sad height,<br />
-Curse, bless, me now with your fierce tears, I pray.<br />
-Do not go gentle into that good night.<br />
-Rage, rage against the dying of the light.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import pandas as pd
 
-<p>— <em>Dylan Thomas, 1914 - 1953</em></p>
+#importando os arquivos
+
+vendas_df = pd.read_csv(r'Contoso - Vendas - 2017.csv', sep=';')
+
+produtos_df = pd.read_csv(r'Contoso - Cadastro Produtos.csv', sep=';')
+
+lojas_df = pd.read_csv(r'Contoso - Lojas.csv', sep=';')
+
+clientes_df = pd.read_csv(r'Contoso - Clientes.csv', sep=';')
+
+  
+
+#limpando apenas as colunas que queremos
+
+clientes_df = clientes_df[['ID Cliente', 'E-mail']]
+
+produtos_df = produtos_df[['ID Produto', 'Nome do Produto']]
+
+lojas_df = lojas_df[['ID Loja', 'Nome da Loja']]
+
+  
+
+#mesclando e renomeando os dataframes
+
+vendas_df = vendas_df.merge(produtos_df, on='ID Produto')
+
+vendas_df = vendas_df.merge(lojas_df, on='ID Loja')
+
+vendas_df = vendas_df.merge(clientes_df, on='ID Cliente').rename(columns={'E-mail': 'E-mail do Cliente'})
+
+display(vendas_df)
+</code></pre></div></div>
+
+<p><img src="https://i.imgur.com/X2GLOtU.png" alt="" /></p>
+
+<!-- ![Tabela](https://i.imgur.com/K4mUMSY.png) -->
+
+<h3 id="qual-cliente-que-comprou-mais-vezes">Qual cliente que comprou mais vezes?</h3>
+
+<ul>
+  <li>Usaremos o método .value_counts() para contar quantas vezes cada valor do Dataframe aparece</li>
+  <li>Usaremos o método .plot() para exibir um gráfico</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>frequencia_clientes = vendas_df['E-mail do Cliente'].value_counts()
+
+display(frequencia_clientes)
+
+frequencia_clientes[:5].plot(figsize=(15,5))
+</code></pre></div></div>
+
+<h3 id="qual-a-loja-que-mais-vendeu">Qual a Loja que mais vendeu?</h3>
+
+<ul>
+  <li>Usaremos o .groupby para agrupar o nosso dataframe, de acordo com o que queremos (somando as quantidades de vendas, por exemplo)</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vendas_lojas = vendas_df.groupby('Nome da Loja').sum()
+
+vendas_lojas = vendas_lojas[['Quantidade Vendida']]
+
+display(vendas_lojas)
+
+</code></pre></div></div>
+<p><img src="https://i.imgur.com/RaWprSu.png" alt="" /></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> #pegando o maior valor e se índice
+
+maior_valor = vendas_lojas['Quantidade Vendida'].max()
+
+melhor_valor = vendas_lojas['Quantidade Vendida'].idxmax()
+
+print(melhor_valor, maior_valor)
+
+Loja Contoso Catalog Valor em R$ 1029117
+
+</code></pre></div></div>
+
 
 
 
