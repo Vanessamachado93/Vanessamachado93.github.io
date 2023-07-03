@@ -1,8 +1,9 @@
 ---
 title: Curso de Python
 tags: [Python, Estudos, Tecnologia]
-style: 
-color: As aulas do curso vai desde a base até as bibliotecas mais usadas no dia a dia nas empresas. Fundamentos da linguagem Python, incluindo sintaxe, estruturas de controle, manipulação de strings e listas, funções, classes e módulos. Introdução a bibliotecas populares, como Pandas, NumPy e Matplotlib, que são amplamente utilizadas para análise e visualização de dados.
+style: border
+color: primary
+description: O curso vai desde a  base até as bibliotecas mais usadas no dia a dia nas empresas. Fundamentos da linguagem Python, incluindo sintaxe, estruturas de controle, manipulação de strings e listas, funções, classes e módulos. Introdução a bibliotecas populares, como Pandas, NumPy e Matplotlib, que são amplamente utilizadas para análise e visualização de dados.
 ---
 
 ## Minha Experiência com o Curso Python Impressionador
