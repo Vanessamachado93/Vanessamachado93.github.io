@@ -14,7 +14,7 @@ O Pandas é uma biblioteca Python usada para análise e manipulação de dados. 
 
 Métodos para analisar nossas tabelas (dataframes), usando plot de gráfico padrões do pandas, mas no projeto de DataScience veremos outras mais bonitas e também muito práticas.
 
-  OBS: O pandas usa o matplotlib (que vimos na seção de "módulos e bibliotecas") para plotar gráficos.<br>
+  O pandas usa o matplotlib (que vimos na seção de "módulos e bibliotecas") para plotar gráficos.<br>
   Se quiser personalizar mais do que o padrão do pandas, importe o matplotlib e use os métodos do matplotlib.
   
 - Preparando as bases de dados.
@@ -80,7 +80,7 @@ frequencia_clientes[:5].plot(figsize=(15,5))
 
 ### Qual a Loja que mais vendeu?
 
-- Usaremos o .groupby para agrupar o nosso dataframe, de acordo com o que queremos (somando as quantidades de vendas, por exemplo)
+- Usamos o .groupby para agrupar o nosso dataframe, de acordo com o que queremos (somando as quantidades de vendas, por exemplo)
 
  ```
 vendas_lojas = vendas_df.groupby('Nome da Loja').sum()

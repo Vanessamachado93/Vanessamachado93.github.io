@@ -89,7 +89,7 @@
 
 <p>Métodos para analisar nossas tabelas (dataframes), usando plot de gráfico padrões do pandas, mas no projeto de DataScience veremos outras mais bonitas e também muito práticas.</p>
 
-<p>OBS: O pandas usa o matplotlib (que vimos na seção de “módulos e bibliotecas”) para plotar gráficos.<br />
+<p>O pandas usa o matplotlib (que vimos na seção de “módulos e bibliotecas”) para plotar gráficos.<br />
   Se quiser personalizar mais do que o padrão do pandas, importe o matplotlib e use os métodos do matplotlib.</p>
 
 <ul>
@@ -155,7 +155,7 @@ frequencia_clientes[:5].plot(figsize=(15,5))
 <h3 id="qual-a-loja-que-mais-vendeu">Qual a Loja que mais vendeu?</h3>
 
 <ul>
-  <li>Usaremos o .groupby para agrupar o nosso dataframe, de acordo com o que queremos (somando as quantidades de vendas, por exemplo)</li>
+  <li>Usamos o .groupby para agrupar o nosso dataframe, de acordo com o que queremos (somando as quantidades de vendas, por exemplo)</li>
 </ul>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vendas_lojas = vendas_df.groupby('Nome da Loja').sum()
