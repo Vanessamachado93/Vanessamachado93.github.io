@@ -1,8 +1,8 @@
 ---
 title: 4 Lessons After 11 Years in Silicon Valley
 tags: 
-style: fill
-color: success
+style: border
+color: primary
 description: On the realities of opportunity, success, reputation, and relationships in tech.
 ---
 
