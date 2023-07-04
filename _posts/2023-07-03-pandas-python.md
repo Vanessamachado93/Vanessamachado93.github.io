@@ -9,11 +9,11 @@ description: O Pandas é uma biblioteca Python usada para análise e manipulaç�
 # Visualização no pandas
 [Documentação do Pandas](https://pandas.pydata.org/docs/index.html)
   
-## Análise de csv de uma rede de loja e suas 
+## Análise das vendas
 
-Métodos para analisar nossas tabelas (dataframes), usando plot de gráfico padrões do pandas, mas no projeto de DataScience veremos outras mais bonitas e também muito práticas.
+Métodos para analisar nossas tabelas (dataframes), usando plot de gráfico padrões do pandas.
 
-  O pandas usa o matplotlib (que vimos na seção de "módulos e bibliotecas") para plotar gráficos.<br>
+  O pandas usa o matplotlib para plotar gráficos.<br>
   Se quiser personalizar mais do que o padrão do pandas, importe o matplotlib e use os métodos do matplotlib.
   
 - Preparando as bases de dados.
@@ -99,8 +99,7 @@ melhor_valor = vendas_lojas['Quantidade Vendida'].idxmax()
 
 print(melhor_valor, maior_valor)
 
-Loja Contoso Catalog Valor em R$ 1029117
-
  ```
+ __Loja:  Contoso Catalog Valor de vendas R$ 1029117__
 
 ![](https://i.imgur.com/z9vtGmm.png)
