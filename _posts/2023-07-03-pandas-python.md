@@ -3,24 +3,25 @@ title: Pandas - Curso de Python
 tags: [Python, Estudos, Tecnologia]
 style: border
 color: primary
-description: Uso do Pandas.
+description: 
+O Pandas é uma biblioteca Python usada para análise e manipulação de dados. Ele oferece estruturas de dados flexíveis, como Series e DataFrame, e possui recursos para leitura, escrita, limpeza e exploração de conjuntos de dados. Com o Pandas, você pode filtrar, classificar, agrupar e combinar dados de forma eficiente. É uma ferramenta essencial para cientistas de dados, analistas e desenvolvedores que trabalham com análise de dados em Python.
 ---
 
 # Visualização no pandas
 [Documentação do Pandas](https://pandas.pydata.org/docs/index.html)
   
-## Resumo 
+## Análise de csv de uma rede de loja e suas 
 
-Vamos ver alguns métodos para analisar nossas tabelas (dataframes).
-Além disso, vamos usar os plot de gráfico padrões do pandas, mas no projeto de DataScience veremos outras mais bonitas e também muito práticas.
+Métodos para analisar nossas tabelas (dataframes), usando plot de gráfico padrões do pandas, mas no projeto de DataScience veremos outras mais bonitas e também muito práticas.
 
   OBS: O pandas usa o matplotlib (que vimos na seção de "módulos e bibliotecas") para plotar gráficos.<br>
   Se quiser personalizar mais do que o padrão do pandas, importe o matplotlib e use os métodos do matplotlib.
   
 - Preparando as bases de dados.
-- Lembrando que a base de dados usadas estava na mesma pasta do arquivo Jupyter.
+- Lembrando que a base de dados usadas estava na mesma pasta do arquivo pandas.
 
 
+![](https://i.imgur.com/24ZolwM.png)
 
  ```
 import pandas as pd
@@ -57,15 +58,16 @@ vendas_df = vendas_df.merge(clientes_df, on='ID Cliente').rename(columns={'E-mai
 
 display(vendas_df)
  ```
+ ![](https://i.imgur.com/S4L17E7.png)
 
-![](https://i.imgur.com/X2GLOtU.png)
+
 
 <!-- ![Tabela](https://i.imgur.com/K4mUMSY.png) -->
 
 ### Qual cliente que comprou mais vezes?
 
-- Usaremos o método .value_counts() para contar quantas vezes cada valor do Dataframe aparece
-- Usaremos o método .plot() para exibir um gráfico
+- Usamos o método .value_counts() para contar quantas vezes cada valor do Dataframe aparece
+- Usamos o método .plot() para exibir um gráfico
 
  ```
 frequencia_clientes = vendas_df['E-mail do Cliente'].value_counts()
@@ -74,7 +76,7 @@ display(frequencia_clientes)
 
 frequencia_clientes[:5].plot(figsize=(15,5))
  ```
-
+![](https://i.imgur.com/X2GLOtU.png)
 
 ### Qual a Loja que mais vendeu?
 
@@ -102,3 +104,4 @@ Loja Contoso Catalog Valor em R$ 1029117
 
  ```
 
+![](https://i.imgur.com/z9vtGmm.png)
