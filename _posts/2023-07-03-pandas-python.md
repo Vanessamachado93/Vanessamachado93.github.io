@@ -3,7 +3,7 @@ title: Pandas - Curso de Python
 tags: [Python, Estudos, Tecnologia]
 style: border
 color: primary
-description: O Pandas é uma biblioteca Python usada para análise e manipulação de dados. Ele oferece estruturas de dados flexíveis, como Series e DataFrame, e possui recursos para leitura, escrita, limpeza e exploração de conjuntos de dados. Com o Pandas, você pode filtrar, classificar, agrupar e combinar dados de forma eficiente. É uma ferramenta essencial para cientistas de dados, analistas e desenvolvedores que trabalham com análise de dados em Python.
+description: O Pandas é uma biblioteca Python usada para análise e manipulação de dados. Possuí DataFrame, e possui recursos para leitura, escrita, limpeza e exploração de conjuntos de dados. Com o Pandas, você pode filtrar, classificar, agrupar e combinar dados de forma eficiente. É uma ferramenta essencial para cientistas de dados, analistas e desenvolvedores que trabalham com análise de dados em Python.
 ---
 
 # Visualização no pandas
