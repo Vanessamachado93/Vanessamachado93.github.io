@@ -1,8 +1,8 @@
 ---
 title: A better Hello World
 tags: [Software Development]
-style: fill
-color: dark
+style: border
+color: primary
 description: A different “hello world” to demonstrate language features better.
 ---
 
