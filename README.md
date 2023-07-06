@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Blog/Portifólio</h1>
+  <h1>Blog</h1>
   <i>Blog pessoal hospedado aqui GitHub Pages.</i>
 </div>
 
