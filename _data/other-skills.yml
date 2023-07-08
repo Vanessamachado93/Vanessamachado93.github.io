@@ -2,6 +2,10 @@
   percentage: 70
   color: info
 
+- name: Power BI
+  percentage: 30
+  color: info
+
 - name: Docker
   percentage: 60
   color: success

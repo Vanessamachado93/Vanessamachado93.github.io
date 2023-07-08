@@ -59,7 +59,7 @@ display(vendas_df)
  ```
  O Comando diplay é usado para mostrar os dados em formato de tabela, para 
  faciliar a vizualização.
- 
+
  ![](https://i.imgur.com/S4L17E7.png)
 
 
@@ -104,3 +104,6 @@ print(melhor_valor, maior_valor)
 
  ```
  __Loja:  Contoso Catalog Valor de vendas R$ 1029117__
+
+
+
