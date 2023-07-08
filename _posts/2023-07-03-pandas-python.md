@@ -57,6 +57,9 @@ vendas_df = vendas_df.merge(clientes_df, on='ID Cliente').rename(columns={'E-mai
 
 display(vendas_df)
  ```
+ O Comando diplay é usado para mostrar os dados em formato de tabela, para 
+ faciliar a vizualização.
+ 
  ![](https://i.imgur.com/S4L17E7.png)
 
 
@@ -101,5 +104,3 @@ print(melhor_valor, maior_valor)
 
  ```
  __Loja:  Contoso Catalog Valor de vendas R$ 1029117__
-
-![](https://i.imgur.com/z9vtGmm.png)
