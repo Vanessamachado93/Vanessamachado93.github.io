@@ -24,8 +24,8 @@ No meu tempo livre, continuo explorando novas tecnologias e participando de comu
 
 Em resumo, sou um estudante dedicado de ADS, com formação anterior em Administração de Empresas. Estou entusiasmado com as oportunidades que a área de TI oferece e comprometido em expandir meus conhecimentos e habilidades para ter sucesso nessa nova carreira.
 <div class="row">
-{% include about/skills.html title="Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Outras Skills" source=site.data.other-skills %}
+{% include about/skills.html title="Conhecimentos e Estudos Continuos" source=site.data.programming-skills %}
+{% include about/skills.html title="" source=site.data.other-skills %}
 </div>
 
 <div class="row">
