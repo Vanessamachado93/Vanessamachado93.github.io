@@ -2,14 +2,22 @@
   percentage: 70
   color: secondary
 
-# - name: HTML5/CSS3
-#   percentage: 90
-#   color: danger
+- name: Java
+  percentage: 35
+  color: danger
 
 - name: SQL
   percentage: 50
-  color:
+  color: success
 
 - name: Cloud AWS
   percentage: 70
-  color:
+  color: success
+
+- name: Ruby
+  percentage: 73
+  color: danger
+
+- name: Ruby on Rails
+  percentage: 73
+  color: dark
