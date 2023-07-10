@@ -20,10 +20,16 @@ Além de meu compromisso com os estudos, sou uma pessoa colaborativa e fácil de
 
 Acredito que meu conhecimento em administração de empresas, combinado com minha nova especialização em ADS, me proporcionará uma vantagem única no mercado de trabalho, permitindo-me compreender e atender às necessidades tanto das empresas quanto da tecnologia.
 
-No meu tempo livre, continuo explorando novas tecnologias e participando de comunidades online relacionadas à programação e desenvolvimento de sistemas. Estou comprometido com o aprendizado contínuo, pois reconheço que a área de TI está em constante evolução.
+No meu tempo livre, continuo explorando novas tecnologias e participando de comunidades online relacionadas à programação e desenvolvimento de sistemas. Estou comprometida com o aprendizado contínuo, pois reconheço que a área de TI está em constante evolução.
 
-Em resumo, sou um estudante dedicado de ADS, com formação anterior em Administração de Empresas. Estou entusiasmado com as oportunidades que a área de TI oferece e comprometido em expandir meus conhecimentos e habilidades para ter sucesso nessa nova carreira.
- 
+ Sou apaixonada por dados e meu objetivo é trabalhar como analista de dados, fornecendo análises que contribuam significativamente para a melhoria da tomada de decisão.
+
+Como analista de dados, tenho o propósito de transformar dados brutos em informações compreensíveis e relevantes por meio da análise e utilização do Power BI. Com o intuito de otimizar esse processo, busco constantemente aprimorar minhas habilidades e conhecimentos na área.
+
+Acredito que a análise de dados é fundamental para que as empresas possam tomar decisões embasadas e estratégicas. Utilizando ferramentas como o Power BI, tenho a capacidade de visualizar e apresentar os dados de forma clara e intuitiva, facilitando a compreensão e proporcionando insights valiosos para a tomada de decisão.
+
+Estou empenhada em contribuir para o sucesso das organizações, fornecendo análises precisas e relevantes que possam direcionar estratégias e impulsionar o crescimento. Estou animada com a oportunidade de aplicar meu conhecimento e paixão pelos dados para ajudar a impulsionar a tomada de decisão assertiva e colaborar com o sucesso das empresas em que eu atuar.
+
 <div class="row">
 {% include about/skills.html title="Conhecimentos" source=site.data.programming-skills %}
 {% include about/skills.html title="Estudos Continuos" source=site.data.other-skills %}
