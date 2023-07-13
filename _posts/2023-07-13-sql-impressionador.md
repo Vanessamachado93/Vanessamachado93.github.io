@@ -1,0 +1,27 @@
+---
+title: Curso de SQL
+tags: [SQL, Estudos, Tecnologia]
+style: border
+color: primary
+description: O curso de SQL começa com a base de  SQL e é usado o banco de dados Microsoft Server com os
+dados da empresa Contoso. 
+---
+### Meus estudos nesse curso está sendo melhor que imaginei.
+
+Antes de começar o curso imaginava que seria monotono, mas as aulas
+tem um conteúdo rico e o professor usa uns slides muito bons e cheio de exemplos práticos e exercícios 
+ao final de cada aula.
+
+<a href="https://imgur.com/BdpdPhm"><img src="https://i.imgur.com/BdpdPhm.png" title="source: imgur.com" /></a>
+
+
+<a href="https://imgur.com/ZO4nL5V"><img src="https://i.imgur.com/ZO4nL5V.png" title="source: imgur.com" /></a>
+
+<a href="https://imgur.com/sjN1EpF"><img src="https://i.imgur.com/sjN1EpF.png" title="source: imgur.com" /></a>
+
+# Aqui abaixo:
+Mostra os SGBD que será abordado durante do curso.
+Para entender quais as diferenças que tem cada um e as semelhanças.
+
+<a href="https://imgur.com/RV3kT6G"><img src="https://i.imgur.com/RV3kT6G.png" title="source: imgur.com" /></a>
+
