@@ -1,28 +1,30 @@
 ---
-title: Curso de Python
-tags: [Python, Estudos, Tecnologia]
+title: Curso de SQL
+tags: [SQL, Estudos, Tecnologia]
 style: border
 color: primary
-description: O curso vai desde a  base até as bibliotecas mais usadas no dia a dia nas empresas. Fundamentos da linguagem Python, incluindo sintaxe, estruturas de controle, manipulação de strings e listas, funções, classes e módulos. Introdução a bibliotecas populares, como Pandas, NumPy e Matplotlib, que são amplamente utilizadas para análise e visualização de dados.
+description: O curso de SQL começa com a base de 
+SQL e é usado o banco de dados Microsoft Server com os
+dados da empresa Contoso.
 ---
 
-## Minha Experiência com o Curso Python Impressionador
 
-Hoje quero compartilhar com vocês a incrível jornada que vivo ao participar do curso Python Impressionador, oferecido pelo treinamento Hashtag. Foi uma experiência verdadeiramente transformadora que me permitiu aprender a linguagem de programação Python e abrir um mundo de possibilidades tecnológicas.
+## Meus estudos nesse curso está sendo melhor que imaginei!
+Antes de começar o curso imaginava que seria monotono, mas as aulas
+tem um conteúdo rico e o professor usa uns slides muito bons e cheio de exemplos práticos e exercícios 
+ao final de cada aula.
 
-Desde o início, fiquei impressionado com a abordagem didática e envolvente do curso. Começamos com uma introdução clara e motivadora, que nos preparou para mergulhar de cabeça em conceitos como lógica de programação e criação dos nossos primeiros programas em Python.
+<a href="https://imgur.com/BdpdPhm"><img src="https://i.imgur.com/BdpdPhm.png" title="source: imgur.com" /></a>
 
-À medida que avançávamos, fui conquistado pela variedade de tópicos abordados. Aprendi a trabalhar com variáveis, estruturas condicionais, strings, listas e muito mais. Cada lição era acompanhada por exercícios práticos, que me desafiavam a aplicar o conhecimento recém-adquirido.
 
-Uma das partes mais fascinantes foi a introdução à orientação a objetos e a exploração de bibliotecas e módulos. Aprendi a criar minhas próprias funções e descobri como integrar o Python a outras ferramentas e tecnologias, como Excel, ArcGIS e até mesmo web scraping com o Selenium.
+<a href="https://imgur.com/ZO4nL5V"><img src="https://i.imgur.com/ZO4nL5V.png" title="source: imgur.com" /></a>
 
-Os projetos práticos oferecidos durante o curso foram um verdadeiro diferencial. Desde automações de processo até a criação de um site completo do zero com Flask, cada projeto me desafiou a aplicar o que aprendi e me permitiu vivenciar situações reais do mercado de trabalho,  bibliotecas populares, como Pandas, NumPy e Matplotlib, que são amplamente utilizadas para análise e visualização de dados.
+<a href="https://imgur.com/sjN1EpF"><img src="https://i.imgur.com/sjN1EpF.png" title="source: imgur.com" /></a>
 
-Além disso, o curso aborda tópicos avançados, como reconhecimento de imagem e fala, criação de aplicativos móveis e até mesmo a criação de jogos. Essas habilidades adicionais abriram um leque de possibilidades para minha carreira como desenvolvedor.
+# Aqui abaixo:
+Mostra os SGBD que será abordado durante do curso.
+Para entender quais as diferenças que tem cada um e as semelhanças.
 
-O suporte oferecido durante todo o curso também é excepcional. Tive acesso a aulas tira-dúvidas e pude interagir com outros estudantes por meio de grupos de estudo. Isso enriqueceu ainda mais minha experiência, permitindo-me compartilhar conhecimentos e receber feedback valioso.
+<a href="https://imgur.com/RV3kT6G"><img src="https://i.imgur.com/RV3kT6G.png" title="source: imgur.com" /></a>
 
-e se sigo estudando.
-[Github com o andamento do curso](https://github.com/Vanessamachado93/Python-Impressionador-Hashtag)
 
-{% include elements/figure.html image="https://i.imgur.com/Fkk5lnm.png" caption="curso lira" %}
