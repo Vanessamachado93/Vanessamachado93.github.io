@@ -1,6 +1,6 @@
 ---
 title: Curso de SQL
-tags: [SQL, Estudos, Tecnologia]
+tags: [SQL, Estudos]
 style: border
 color: primary
 description: O curso de SQL começa com a base de  SQL e é usado o banco de dados Microsoft Server com os
