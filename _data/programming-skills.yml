@@ -7,7 +7,7 @@
   color: danger
 
 - name: SQL
-  percentage: 50
+  percentage: 35
   color: success
 
 - name: Cloud AWS
