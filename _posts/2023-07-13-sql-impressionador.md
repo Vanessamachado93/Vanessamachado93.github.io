@@ -6,6 +6,7 @@ color: primary
 description: O curso de SQL começa com a base de  SQL e é usado o banco de dados Microsoft Server com os
 dados da empresa Contoso. 
 ---
+
 ### Meus estudos nesse curso está sendo melhor que imaginei.
 
 Antes de começar o curso imaginava que seria monotono, mas as aulas
