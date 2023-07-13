@@ -2,6 +2,10 @@
   percentage: 70
   color: info
 
+- name: Windows
+  percentage: 70
+  color: info
+
 - name: Power BI
   percentage: 30
   color: info
@@ -14,6 +18,3 @@
   percentage: 55
   color: info
 
-- name: Javascript
-  percentage: 65
-  color: info

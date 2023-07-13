@@ -21,3 +21,7 @@
 - name: Ruby on Rails
   percentage: 73
   color: info
+
+- name: Javascript
+  percentage: 65
+  color: info
