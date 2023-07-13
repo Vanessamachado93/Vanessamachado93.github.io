@@ -8,7 +8,6 @@ dados da empresa Contoso.
 ---
 
 ## Meus estudos nesse curso está sendo melhor que imaginei!
-
 Antes de começar o curso imaginava que seria monotono, mas as aulas
 tem um conteúdo rico e o professor usa uns slides muito bons e cheio de exemplos práticos e exercícios 
 ao final de cada aula.
