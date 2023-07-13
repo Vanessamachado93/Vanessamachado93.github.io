@@ -1,9 +1,10 @@
 ---
-title: Curso de SQL
-tags: [SQL, Estudos]
+title: Curso de SQL Hashtag
+tags: [SQL, estudos]
 style: border
 color: primary
-description: O curso de SQL começa com a base de  SQL e é usado o banco de dados Microsoft Server com os
+description: O curso de SQL começa com a base de 
+SQL e é usado o banco de dados Microsoft Server com os
 dados da empresa Contoso. 
 ---
 
