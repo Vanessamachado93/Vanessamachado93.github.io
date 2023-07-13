@@ -8,12 +8,12 @@
 
 - name: Docker
   percentage: 60
-  color: success
+  color: info
 
 - name: Inglês
   percentage: 55
-  color: danger
+  color: info
 
 - name: Javascript
   percentage: 65
-  color: success
+  color: info
