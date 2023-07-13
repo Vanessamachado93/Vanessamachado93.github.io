@@ -31,8 +31,8 @@ Acredito que a análise de dados é fundamental para que as empresas possam toma
 Estou empenhada em contribuir para o sucesso das organizações, fornecendo análises precisas e relevantes que possam direcionar estratégias e impulsionar o crescimento. Estou animada com a oportunidade de aplicar meu conhecimento e paixão pelos dados para ajudar a impulsionar a tomada de decisão assertiva e colaborar com o sucesso das empresas em que eu atuar.
 
 <div class="row">
-{% include about/skills.html title="Conhecimentos" source=site.data.programming-skills %}
-{% include about/skills.html title="Estudos Continuos" source=site.data.other-skills %}
+{% include about/skills.html title="Conhecimentos e" source=site.data.programming-skills %}
+{% include about/skills.html title="estudos continuos" source=site.data.other-skills %}
 </div>
 
 <div class="row">
