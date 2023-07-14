@@ -3,10 +3,12 @@ title: Curso de Power BI
 tags: [Power BI, Estudos, Tecnologia]
 style: border
 color: primary
-description: O Microsoft Power BI é uma plataforma de análise de negócios que transforma dados brutos em informações úteis. Ele permite conectar-se a várias fontes de dados, como bancos de dados e planilhas, e oferece recursos de modelagem e transformação de dados. Com o Power BI, você pode criar visualizações interativas, painéis de controle e relatórios personalizados. Também é possível compartilhar essas informações com outras pessoas e colaborar em tempo real. Em resumo, o Power BI ajuda as empresas a analisar dados, tomar decisões informadas e impulsionar o sucesso dos negócios.
+description: O Microsoft Power BI é uma plataforma de análise de negócios que transforma dados brutos em informações úteis. Ele permite conectar-se a várias fontes de dados, como bancos de dados e planilhas, e oferece recursos de modelagem e transformação de dados. Com o Power BI, você pode criar visualizações interativas, painéis de controle e relatórios personalizados. 
 ---
 
 ### Conteúdo abordado no curso:
+
+Também é possível compartilhar essas informações com outras pessoas e colaborar em tempo real. Em resumo, o Power BI ajuda as empresas a analisar dados, tomar decisões informadas e impulsionar o sucesso dos negócios.
 
 <a href="https://imgur.com/J6UkTjT"><img src="https://i.imgur.com/J6UkTjT.png" title="source: imgur.com" /></a>
 
@@ -32,3 +34,4 @@ description: O Microsoft Power BI é uma plataforma de análise de negócios que
 21. Certificação Microsoft PL-300 (Antiga DA-100)
 22. Introdução à Power Platform
 23. Mentorias Tira Dúvidas Ao Vivo
+
