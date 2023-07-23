@@ -52,7 +52,7 @@ Inmon, considerado o pai do Data Warehouse, define DW como um conjunto de dados 
 ### Data Marts (DM)
 
 São subconjuntos dos dados corporativos, geralmente focados em assuntos especiais e de valor para um departamento da corporação, unidade corporativa ou conjunto de usuários. Um data mart é definido pelo escopo funcional que atende e não pelo seu tamanho. Geralmente considerado como subconjunto de um Data Warehouse.<br>
-Podemos dizer que Data Mart evoluiu a partir dos conceitos do Data Warehousing. 
+Podemos dizer que Data Mart evoluiu a partir dos conceitos do Data Warehousing. <br>
 Como a construção de um Data Warehouse pode levar muito tempo, uma vez que lida com informações para toda a corporação, um Data Mart pode ser considerado como um pequeno DW construído para satisfazer as necessidades de um departamento unidade ou conjunto de usuários.<br>
 Esse assunto é abordado na construção de um DW, pelas metodologias Top-Dow (Inmon) e Bottom-Up (Kimball). Kimball defende que um DW seja construído a partir do desenvolvimento de DMs, ou seja, construa um Data Mart departamental e integre-o aos demais, quando estiver pronto.<br>
 Inmon defende a construção do DW de uma única vez, gerando Data Marts posteriormente. Face ao tempo de construção muito menor e o retorno de investimento mais rápido, a proposta de Kimball é a mais aceita no mercado atualmente.
