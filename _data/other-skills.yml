@@ -1,20 +1,20 @@
-- name: Linux
-  percentage: 70
-  color: info
+# - name: Linux
+#   percentage: 70
+#   color: info
 
-- name: Windows
-  percentage: 70
-  color: info
+# - name: Windows
+#   percentage: 70
+#   color: info
 
-- name: Power BI
-  percentage: 30
-  color: info
+# - name: Power BI
+#   percentage: 30
+#   color: info
 
-- name: Docker
-  percentage: 60
-  color: info
+# - name: Docker
+#   percentage: 60
+#   color: info
 
-- name: Inglês
-  # percentage: 55
-  # color: info
+# - name: Inglês
+#   # percentage: 55
+#   # color: info
 
