@@ -15,6 +15,6 @@
   color: info
 
 - name: Inglês
-  percentage: 55
-  color: info
+  # percentage: 55
+  # color: info
 
