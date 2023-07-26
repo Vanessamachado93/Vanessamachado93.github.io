@@ -1,27 +1,27 @@
-- name: Python
-  percentage: 70
-  color: info
+# - name: Python
+#   percentage: 70
+#   color: info
 
-- name: Java
-  percentage: 35
-  color: info
+# - name: Java
+#   percentage: 35
+#   color: info
 
-- name: SQL
-  percentage: 35
-  color: info
+# - name: SQL
+#   percentage: 35
+#   color: info
 
-- name: Cloud AWS
-  percentage: 70
-  color: info
+# - name: Cloud AWS
+#   percentage: 70
+#   color: info
 
-- name: Ruby
-  percentage: 73
-  color: info
+# - name: Ruby
+#   percentage: 73
+#   color: info
 
-- name: Ruby on Rails
-  percentage: 73
-  color: info
+# - name: Ruby on Rails
+#   percentage: 73
+#   color: info
 
-- name: Javascript
-  percentage: 65
-  color: info
+# - name: Javascript
+#   percentage: 65
+#   color: info

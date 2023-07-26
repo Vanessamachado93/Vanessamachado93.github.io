@@ -33,7 +33,7 @@ Estou empenhada em contribuir para o sucesso das organizações, fornecendo aná
 Espero que você tenha gostado de conhecer mais sobre mim!
 
 <div class="row">
-{% include about/skills.html title="Conhecimentos e estudos continuos" source=site.data.programming-skills %}
+{% include about/skills.html title="" source=site.data.programming-skills %}
 {% include about/skills.html title="" source=site.data.other-skills %}
 </div>
 
