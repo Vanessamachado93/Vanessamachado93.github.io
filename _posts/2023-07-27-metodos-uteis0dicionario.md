@@ -30,3 +30,34 @@ As chaves em um dicionário são únicas, o que significa que você pode usar um
 
 ### Flexibilidade: <br>
  Os dicionários podem armazenar qualquer tipo de dado em suas chaves e valores, tornando-os bastante versáteis em termos de estrutura de dados.
+
+
+
+```Python
+ # Criando um dicionário de contatos
+contatos = {
+    'João': '111-1111',
+    'Maria': '222-2222',
+    'Pedro': '333-3333'
+}
+
+# Acessando um valor através de uma chave
+print(contatos['João'])  # Saída: '111-1111'
+
+# Adicionando um novo contato
+contatos['Ana'] = '444-4444'
+
+# Verificando se uma chave existe no dicionário
+if 'Maria' in contatos:
+    print("Maria está na lista de contatos.")
+
+# Iterando pelos pares chave-valor
+for nome, telefone in contatos.items():
+    print(f"{nome}: {telefone}")
+
+# Saída:
+# João: 111-1111
+# Maria: 222-2222
+# Pedro: 333-3333
+# Ana: 444-4444
+```
