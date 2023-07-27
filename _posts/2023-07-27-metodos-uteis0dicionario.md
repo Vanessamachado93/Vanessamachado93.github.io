@@ -6,7 +6,9 @@ color: primary
 description: Dicionário é uma estrutura de dados poderosa e flexível usada para armazenar pares de chave-valor.
 ---
 
-[Link do Notebook](https://colab.research.google.com/github/Vanessamachado93/Python-Impressionador-Hashtag/blob/main/Dicionario_05.ipynb)
+[Link do Colab Notebook com arquivo completo](https://colab.research.google.com/github/Vanessamachado93/Python-Impressionador-Hashtag/blob/main/Dicionario_05.ipynb)
+
+<a href="https://imgur.com/ZgHmTFp"><img src="https://i.imgur.com/ZgHmTFp.png" title="source: imgur.com" /></a>
 
 A principal utilidade dos dicionários em Python é permitir a recuperação rápida de um valor (valor associado a uma chave) com base em uma chave única. Aqui estão algumas das principais finalidades e benefícios dos dicionários em Python:
 
