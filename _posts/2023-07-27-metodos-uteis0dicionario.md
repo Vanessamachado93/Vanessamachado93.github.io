@@ -32,7 +32,7 @@ As chaves em um dicionário são únicas, o que significa que você pode usar um
  Os dicionários podem armazenar qualquer tipo de dado em suas chaves e valores, tornando-os bastante versáteis em termos de estrutura de dados.
 
 
-
+### Exemplo:
 ```Python
  # Criando um dicionário de contatos
 contatos = {
