@@ -25,9 +25,9 @@ Construir um site usando Python com Flask, o foco maior é no backend, entender 
 
 - **Autenticação:** O projeto inclui um sistema de login e autenticação para que os usuários possam se cadastrar e fazer login em suas contas.
 
-- **Perfil do Usuário:** Os usuários podem atualizar informações em seus perfis, como nome de usuário e foto de perfil.
+<!-- 
+- **Perfil do Usuário:** Os usuários podem atualizar informações em seus perfis, como nome de usuário e foto de perfil. -->
 
-`
 
 ## Pré-requisitos
 
