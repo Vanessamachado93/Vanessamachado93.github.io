@@ -7,7 +7,8 @@ weight: 3
 
 ## **Sobre...**
 
-Olá! Eu sou **{{ site.author.name }}** :wave:<br>, um estudante de Análise e Desenvolvimento de Sistemas (ADS) no Rio Grande do Sul. Formei em  Bacharel em Administração de Empresas em 2019, decidi redirecionar minha carreira para a Tecnologia da Informação (TI) e mergulhei de cabeça na área de ADS.
+Olá! Eu sou **{{ site.author.name }}** :wave:<br> 
+Estudante de Análise e Desenvolvimento de Sistemas (ADS). Formei em  Bacharel em Administração de Empresas em 2019, decidi redirecionar minha carreira para a Tecnologia da Informação (TI) e mergulhei de cabeça na área de ADS.
 
 Minha jornada tem sido gratificante, combinando habilidades de administração com conhecimentos técnicos adquiridos em estudos autodidatas, cursos online e leituras. Minha transição de Administração para ADS exigiu coragem, mas estou entusiasmado com o papel crescente da tecnologia em todas as áreas de negócios.
 
