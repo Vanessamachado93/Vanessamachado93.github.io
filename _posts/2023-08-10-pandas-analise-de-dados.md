@@ -3,7 +3,7 @@ title: A Importância do Pandas na Análise de Dados
 tags: [Python, Pandas, Estudos, Tecnologia]
 style: border
 color: primary
-description: Uma Visão Abrangenter.
+description: Uma Visão Abrangente.
 ---
 
 ## A Importância do Pandas na Análise de Dados: Uma Visão Abrangente

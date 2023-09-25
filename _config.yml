@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : Vanessa Machado
 description         : >-                      
-                      "A mente que se abre a uma nova ideia jamais voltará ao seu tamanho original."Albert Einstein
+                      Foco nos estudos e evolução constante!
 baseurl             :                      # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : Vanessamachado93.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
