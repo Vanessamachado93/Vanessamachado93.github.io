@@ -8,17 +8,17 @@ weight: 3
 ## **Sobre...**
 
 Olá! Eu sou **{{ site.author.name }}** :wave:<br> 
-Estudante de Análise e Desenvolvimento de Sistemas (ADS). Formei em  Bacharel em Administração de Empresas em 2019, decidi redirecionar minha carreira para a Tecnologia da Informação (TI) e mergulhei de cabeça na área de ADS.
+Sou uma estudante de Análise e Desenvolvimento de Sistemas (ADS) que iniciou sua jornada na Tecnologia da Informação (TI) após concluir o Bacharelado em Administração de Empresas em 2019. Essa transição de carreira exigiu coragem, mas estou animada com as oportunidades que a tecnologia oferece em todos os setores.
 
-Minha jornada tem sido gratificante, combinando habilidades de administração com conhecimentos técnicos adquiridos em estudos autodidatas, cursos online e leituras. Minha transição de Administração para ADS exigiu coragem, mas estou entusiasmado com o papel crescente da tecnologia em todas as áreas de negócios.
+Minha jornada tem sido gratificante, pois combino habilidades de administração com conhecimentos técnicos adquiridos por meio de estudos autodidatas, cursos online e leituras. E, é claro, não posso esquecer de mencionar que estou atualmente imersa no estudo da linguagem de programação Java, que é fundamental para o mundo do desenvolvimento de software.
 
-Além do compromisso com meus estudos, sou colaborativo e adaptável, com fortes habilidades de comunicação. Vejo minha combinação de administração e especialização em ADS como uma vantagem competitiva, permitindo-me atender às necessidades de negócios e tecnologia.
+Além do compromisso com meus estudos e Java, sou colaborativa, adaptável e possuo habilidades de comunicação sólidas. Vejo a combinação de administração e minha especialização em ADS como uma vantagem competitiva, permitindo-me atender às demandas tanto dos negócios quanto da tecnologia.
 
-No meu tempo livre, continuo explorando tecnologias, participando de comunidades online e buscando aprimorar minhas habilidades em análise de dados. Acredito que análise de dados é crucial para decisões estratégicas, e estou determinado a contribuir para o sucesso das empresas, fornecendo análises claras e impactantes.
+Nos momentos de lazer, continuo explorando tecnologias, participando de comunidades online e aprimorando minhas habilidades em análise de dados. Acredito firmemente que a análise de dados desempenha um papel crucial em tomadas de decisões estratégicas e estou determinada a contribuir para o sucesso das empresas, fornecendo análises claras e impactantes.
 
-Espero que essa visão resumida sobre mim tenha sido esclarecedora e agradável!
+Espero que esta breve visão sobre mim tenha sido informativa e agradável! Se você estiver interessada em saber mais sobre minha jornada em Java ou qualquer outro aspecto da minha carreira em TI, fique à vontade para perguntar. Estou sempre ansiosa para compartilhar meu entusiasmo e conhecimento com outras entusiastas da tecnologia.
 
-e-mail: machado.vanessa32@hotmail.com
+e-mail: machado.vanessa32@hotmail.com<br>
 whats: 51 993226780.
 
 <div class="row">
