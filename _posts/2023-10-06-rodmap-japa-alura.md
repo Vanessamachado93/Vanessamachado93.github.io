@@ -8,7 +8,7 @@ description: Rodmap java Alura
 
 # Java
 ## Nivel 1
-- [ ] **Java - Fundamentos**:
+- [x] **Java - Fundamentos**:
    - Java é uma linguagem de programação amplamente usada para codificar aplicações Web. Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede que pode ser usada como uma plataforma em si. É uma linguagem de programação rápida, segura e confiável para codificar tudo, desde aplicações móveis e software empresarial até aplicações de big data e tecnologias do servidor.
    - Conhecer os tipos primitivos
    - Declarar variáveis, considerando os diferentes tipos
