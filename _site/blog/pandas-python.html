@@ -6,15 +6,15 @@
   https://github.com/YoussefRaafatNasry/portfolYOU
 -->
 
-<html lang="en" class="h-100">
+<html lang="pt-BR" class="h-100">
 
 <head>
 
-  
-  
-  
 
-  
+
+
+
+
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,11 +22,13 @@
 
   <meta property="og:type" content="website">
   <meta property="og:title" content="Pandas - Curso de Python">
-  <meta property="og:description" content="O Pandas é uma biblioteca Python usada para análise e manipulação de dados. Possuí DataFrame, e possui recursos para leitura, escrita, limpeza e exploração d...">
+  <meta property="og:description"
+    content="O Pandas é uma biblioteca Python usada para análise e manipulação de dados. Possuí DataFrame, e possui recursos para leitura, escrita, limpeza e exploração d...">
   <meta property="og:image" content="https://i.imgur.com/Kc7ZFMO.png">
 
   <title>Pandas - Curso de Python</title>
-  <meta name="description" content="O Pandas é uma biblioteca Python usada para análise e manipulação de dados. Possuí DataFrame, e possui recursos para leitura, escrita, limpeza e exploração d...">
+  <meta name="description"
+    content="O Pandas é uma biblioteca Python usada para análise e manipulação de dados. Possuí DataFrame, e possui recursos para leitura, escrita, limpeza e exploração d...">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
@@ -52,66 +54,72 @@
   <main class="flex-shrink-0 container mt-5">
     <nav class="navbar navbar-expand-lg navbar-themed">
 
-  <a class="navbar-brand" href="/"><h5><b>Vanessa Machado</b></h5></a>
+      <a class="navbar-brand" href="/">
+        <h5><b>Vanessa Machado</b></h5>
+      </a>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <i class="fas fa-1x fa-bars text-themed"></i>
-  </button>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-1x fa-bars text-themed"></i>
+      </button>
 
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/projects/">Projects</a>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/projects/">Projects</a>
 
-      <a class="nav-item nav-link active" href="/blog/">Blog</a>
+          <a class="nav-item nav-link active" href="/blog/">Blog</a>
 
-      <a class="nav-item nav-link " href="/about/">Sobre</a>
+          <a class="nav-item nav-link " href="/about/">Sobre</a>
 
-      
 
-      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
-    </div>
-  </div>
 
-</nav>
+          <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+        </div>
+      </div>
+
+    </nav>
     <div class="col-lg-10 mx-auto mt-5 markdown-body">
-  <h1><b>Pandas - Curso de Python</b></h1>
+      <h1><b>Pandas - Curso de Python</b></h1>
 
-<p class="post-metadata text-muted">
-  03 July 2023 -  
-  <b>less than 1 min read time</b>
+      <p class="post-metadata text-muted">
+        03 July 2023 -
+        <b>less than 1 min read time</b>
 
-  <br>Tags: 
-    
-    <a class="text-decoration-none no-underline" href="/blog/tags#python">
-      <span class="tag badge badge-pill text-primary border border-primary">Python</span>
-    </a>
-    
-    <a class="text-decoration-none no-underline" href="/blog/tags#estudos">
-      <span class="tag badge badge-pill text-primary border border-primary">Estudos</span>
-    </a>
-    
-    <a class="text-decoration-none no-underline" href="/blog/tags#tecnologia">
-      <span class="tag badge badge-pill text-primary border border-primary">Tecnologia</span>
-    </a>
-    </p>
+        <br>Tags:
 
-<h1 id="visualização-no-pandas">Visualização no pandas</h1>
-<p><a href="https://pandas.pydata.org/docs/index.html">Documentação do Pandas</a></p>
+        <a class="text-decoration-none no-underline" href="/blog/tags#python">
+          <span class="tag badge badge-pill text-primary border border-primary">Python</span>
+        </a>
 
-<h2 id="análise-de-csv-de-uma-rede-de-loja-e-suas">Análise de csv de uma rede de loja e suas</h2>
+        <a class="text-decoration-none no-underline" href="/blog/tags#estudos">
+          <span class="tag badge badge-pill text-primary border border-primary">Estudos</span>
+        </a>
 
-<p>Métodos para analisar nossas tabelas (dataframes), usando plot de gráfico padrões do pandas, mas no projeto de DataScience veremos outras mais bonitas e também muito práticas.</p>
+        <a class="text-decoration-none no-underline" href="/blog/tags#tecnologia">
+          <span class="tag badge badge-pill text-primary border border-primary">Tecnologia</span>
+        </a>
+      </p>
 
-<p>O pandas usa o matplotlib (que vimos na seção de “módulos e bibliotecas”) para plotar gráficos.<br />
-  Se quiser personalizar mais do que o padrão do pandas, importe o matplotlib e use os métodos do matplotlib.</p>
+      <h1 id="visualização-no-pandas">Visualização no pandas</h1>
+      <p><a href="https://pandas.pydata.org/docs/index.html">Documentação do Pandas</a></p>
 
-<ul>
-  <li>Preparando as bases de dados.</li>
-  <li>Lembrando que a base de dados usadas estava na mesma pasta do arquivo pandas.</li>
-</ul>
+      <h2 id="análise-de-csv-de-uma-rede-de-loja-e-suas">Análise de csv de uma rede de loja e suas</h2>
 
-<p><img src="https://i.imgur.com/24ZolwM.png" alt="" /></p>
+      <p>Métodos para analisar nossas tabelas (dataframes), usando plot de gráfico padrões do pandas, mas no projeto de
+        DataScience veremos outras mais bonitas e também muito práticas.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import pandas as pd
+      <p>O pandas usa o matplotlib (que vimos na seção de “módulos e bibliotecas”) para plotar gráficos.<br />
+        Se quiser personalizar mais do que o padrão do pandas, importe o matplotlib e use os métodos do matplotlib.</p>
+
+      <ul>
+        <li>Preparando as bases de dados.</li>
+        <li>Lembrando que a base de dados usadas estava na mesma pasta do arquivo pandas.</li>
+      </ul>
+
+      <p><img src="https://i.imgur.com/24ZolwM.png" alt="" /></p>
+
+      <div class="language-plaintext highlighter-rouge">
+        <div class="highlight">
+          <pre class="highlight"><code>import pandas as pd
 
 #importando os arquivos
 
@@ -144,41 +152,54 @@ vendas_df = vendas_df.merge(lojas_df, on='ID Loja')
 vendas_df = vendas_df.merge(clientes_df, on='ID Cliente').rename(columns={'E-mail': 'E-mail do Cliente'})
 
 display(vendas_df)
-</code></pre></div></div>
-<p><img src="https://i.imgur.com/S4L17E7.png" alt="" /></p>
+</code></pre>
+        </div>
+      </div>
+      <p><img src="https://i.imgur.com/S4L17E7.png" alt="" /></p>
 
-<!-- ![Tabela](https://i.imgur.com/K4mUMSY.png) -->
+      <!-- ![Tabela](https://i.imgur.com/K4mUMSY.png) -->
 
-<h3 id="qual-cliente-que-comprou-mais-vezes">Qual cliente que comprou mais vezes?</h3>
+      <h3 id="qual-cliente-que-comprou-mais-vezes">Qual cliente que comprou mais vezes?</h3>
 
-<ul>
-  <li>Usamos o método .value_counts() para contar quantas vezes cada valor do Dataframe aparece</li>
-  <li>Usamos o método .plot() para exibir um gráfico</li>
-</ul>
+      <ul>
+        <li>Usamos o método .value_counts() para contar quantas vezes cada valor do Dataframe aparece</li>
+        <li>Usamos o método .plot() para exibir um gráfico</li>
+      </ul>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>frequencia_clientes = vendas_df['E-mail do Cliente'].value_counts()
+      <div class="language-plaintext highlighter-rouge">
+        <div class="highlight">
+          <pre class="highlight"><code>frequencia_clientes = vendas_df['E-mail do Cliente'].value_counts()
 
 display(frequencia_clientes)
 
 frequencia_clientes[:5].plot(figsize=(15,5))
-</code></pre></div></div>
-<p><img src="https://i.imgur.com/X2GLOtU.png" alt="" /></p>
+</code></pre>
+        </div>
+      </div>
+      <p><img src="https://i.imgur.com/X2GLOtU.png" alt="" /></p>
 
-<h3 id="qual-a-loja-que-mais-vendeu">Qual a Loja que mais vendeu?</h3>
+      <h3 id="qual-a-loja-que-mais-vendeu">Qual a Loja que mais vendeu?</h3>
 
-<ul>
-  <li>Usamos o .groupby para agrupar o nosso dataframe, de acordo com o que queremos (somando as quantidades de vendas, por exemplo)</li>
-</ul>
+      <ul>
+        <li>Usamos o .groupby para agrupar o nosso dataframe, de acordo com o que queremos (somando as quantidades de
+          vendas, por exemplo)</li>
+      </ul>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vendas_lojas = vendas_df.groupby('Nome da Loja').sum()
+      <div class="language-plaintext highlighter-rouge">
+        <div class="highlight">
+          <pre class="highlight"><code>vendas_lojas = vendas_df.groupby('Nome da Loja').sum()
 
 vendas_lojas = vendas_lojas[['Quantidade Vendida']]
 
 display(vendas_lojas)
 
-</code></pre></div></div>
-<p><img src="https://i.imgur.com/RaWprSu.png" alt="" /></p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> #pegando o maior valor e se índice
+</code></pre>
+        </div>
+      </div>
+      <p><img src="https://i.imgur.com/RaWprSu.png" alt="" /></p>
+      <div class="language-plaintext highlighter-rouge">
+        <div class="highlight">
+          <pre class="highlight"><code> #pegando o maior valor e se índice
 
 maior_valor = vendas_lojas['Quantidade Vendida'].max()
 
@@ -188,72 +209,67 @@ print(melhor_valor, maior_valor)
 
 Loja Contoso Catalog Valor em R$ 1029117
 
-</code></pre></div></div>
+</code></pre>
+        </div>
+      </div>
 
-<p><img src="https://i.imgur.com/z9vtGmm.png" alt="" /></p>
+      <p><img src="https://i.imgur.com/z9vtGmm.png" alt="" /></p>
 
 
 
-</div>
+    </div>
   </main>
   <footer class="mt-auto py-3 text-center">
 
-  <small class="text-muted mb-2">
-    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
-    by <strong>Vanessa Machado</strong>
-  </small>
+    <small class="text-muted mb-2">
+      <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+      by <strong>Vanessa Machado</strong>
+    </small>
 
-  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:machado.vanessa32@hotmail.com"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#db4437'"
-       onMouseOut="this.style.color='#6c757d'">
-      <i class="fas fa-envelope fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.github.com/Vanessamachado93"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#333333'"
-       onMouseOut="this.style.color='#6c757d'">
-      <i class="fab fa-github fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.linkedin.com/in/vanessasouzamachado"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#007bb5'"
-       onMouseOut="this.style.color='#6c757d'">
-      <i class="fab fa-linkedin-in fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.twitter.com/vanessa_sj9"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#1da1f2'"
-       onMouseOut="this.style.color='#6c757d'">
-      <i class="fab fa-twitter fa-1x"></i>
-    </a>
+    <div class="container-fluid justify-content-center"><a class="social mx-1"
+        href="mailto:machado.vanessa32@hotmail.com" style="color: #6c757d" onMouseOver="this.style.color='#db4437'"
+        onMouseOut="this.style.color='#6c757d'">
+        <i class="fas fa-envelope fa-1x"></i>
+      </a><a class="social mx-1" href="https://www.github.com/Vanessamachado93" style="color: #6c757d"
+        onMouseOver="this.style.color='#333333'" onMouseOut="this.style.color='#6c757d'">
+        <i class="fab fa-github fa-1x"></i>
+      </a><a class="social mx-1" href="https://www.linkedin.com/in/vanessasouzamachado" style="color: #6c757d"
+        onMouseOver="this.style.color='#007bb5'" onMouseOut="this.style.color='#6c757d'">
+        <i class="fab fa-linkedin-in fa-1x"></i>
+      </a><a class="social mx-1" href="https://www.twitter.com/vanessa_sj9" style="color: #6c757d"
+        onMouseOver="this.style.color='#1da1f2'" onMouseOut="this.style.color='#6c757d'">
+        <i class="fab fa-twitter fa-1x"></i>
+      </a>
 
-</div><small id="attribution">
-    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
-  </small>
+    </div><small id="attribution">
+      theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+    </small>
 
-</footer>
+  </footer>
 
-  
+
   <!-- GitHub Buttons -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
 
-<!-- jQuery CDN -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-<!-- Popper.js CDN -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <!-- Popper.js CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
 
-<!-- Bootstrap JS CDN -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- Bootstrap JS CDN -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-<!-- wow.js CDN & Activation -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
-<script> new WOW().init(); </script>
+  <!-- wow.js CDN & Activation -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+  <script> new WOW().init(); </script>
 
-<!-- Initialize all tooltips -->
-<script>
-$(function () {
-    $('[data-toggle="tooltip"]').tooltip()
-})
-</script>
+  <!-- Initialize all tooltips -->
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+  </script>
 </body>
 
 </html>
